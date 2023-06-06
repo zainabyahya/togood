@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat:wght@100;300;400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.white-font {
+  color: #fff
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 5%;
+  text-shadow:1px 1px 10px #69a6bf;
+
+}
+
+.section-heading {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 5%;
+
+}
+
+.small-heading {
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+  padding: 5%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ffccb5;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000000;
+
+}
+
+/* Navigation Bar */
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #69a6bf!important;
+
+}
+
+
+/* Title Section */
+
+#title {
+  background: #c3e5e7;
+  color: #ffffff;
+  text-align: left;
+  background-image: url("../images/bg.jpeg");
+  background-repeat:no-repeat ;
+  background-size:  cover; 
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #f7ac8b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ffccb5;
+}
+
+
+/* contact Section */
+
+#contact {
+  position: relative;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  padding-bottom: 1% 3%;
+}
+
+.contact-box {
+  padding: 1% 5%;
+}
+
+
+@media (max-width: 1028px) {
+
+  .big-heading {
+font-size: 2.5rem;
+
+  }
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
